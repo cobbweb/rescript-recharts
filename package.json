@@ -1,5 +1,5 @@
 {
-  "name": "@float-capital/rescript-recharts",
+  "name": "@cobbweb/rescript-recharts",
   "version": "0.1.2",
   "scripts": {
     "res:build": "rescript build -with-deps",
@@ -8,13 +8,13 @@
     "res:refmt": "rescript format -all"
   },
   "description": "ReScript bindings for Recharts",
-  "homepage": "https://github.com/float-capital/rescript-recharts#readme",
+  "homepage": "https://github.com/cobbweb/rescript-recharts#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/float-capital/rescript-recharts.git"
+    "url": "git+ssh://git@github.com/cobbweb/rescript-recharts.git"
   },
   "bugs": {
-    "url": "https://github.com/float-capital/rescript-recharts/issues"
+    "url": "https://github.com/cobbweb/rescript-recharts/issues"
   },
   "author": "Jason Smythe <jason@float-capital.com> & ahrefs",
   "license": "MIT",
@@ -29,7 +29,6 @@
     "rescript"
   ],
   "dependencies": {
-    "@rescript/react": "^0.10.3",
     "rescript": "^9.1.4"
   },
   "peerDependencies": {

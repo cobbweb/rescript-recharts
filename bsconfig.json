@@ -1,5 +1,5 @@
 {
-  "name": "@float-capital/rescript-recharts",
+  "name": "@cobbweb/rescript-recharts",
   "namespace": "recharts",
   "sources": [
     {
@@ -7,9 +7,7 @@
       "subdirs": true
     }
   ],
-  "bs-dependencies": [
-    "@rescript/react"
-  ],
+  "bs-dependencies": ["@rescript/react"],
   "package-specs": {
     "module": "commonjs",
     "in-source": true
