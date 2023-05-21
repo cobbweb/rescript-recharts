@@ -4,12 +4,11 @@
 external make: (
   ~animationBegin: int=?,
   ~animationDuration: int=?,
-  ~animationEasing: @string
-  [
+  ~animationEasing: [
     | #ease
-    | @as("ease-in") #easeIn
-    | @as("ease-out") #easeOut
-    | @as("ease-in-out") #easeInOut
+    | #"ease-in"
+    | #"ease-out"
+    | #"ease-in-out"
     | #linear
   ]=?,
   ~background: 'background=?,
